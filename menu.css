@@ -1,0 +1,45 @@
+
+.menu ul > li > a {
+    text-decoration: none;
+	font-size: 25px;
+	font-family: "Minion Pro Cond";
+}
+li {display: list-item;}
+.menu li:hover {
+	background-color: red;
+	}
+li.menu {
+	display: block;
+	background-color: red;
+	}
+.menu > ul > li {
+	list-style-type: none;
+	float: left;
+    padding: 24px;
+	background-color: rgb(255,153,153);
+	position: relative;
+	border-right :dotted
+}
+.menu > ul > li:nth-last-child {
+	border-right:none;
+}
+.menu > ul > li > ul {
+	display: none;
+	list-style-type: none;
+	background-color: rgb(156, 134, 179);
+    top: 76px;
+    left: 0;
+    width: 159%;
+}
+.menu > ul > li > ul > li{
+    padding: 8px 11px;
+}
+.menu > ul> li:hover > ul {
+	display: block;
+	position: absolute;
+    
+
+}
+#cap2 ul>li{
+	color: red;
+}
